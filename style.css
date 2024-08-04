@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+   display: flex;
+    align-items:center;
+    justify-content: right;
+    padding: 32px;
+   
+
+}
+.card{
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    height: 480px;
+    width: 270px;
+    border: 1px solid salmon ;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+#card2{
+    rotate: 15deg;
+    z-index: 3;
+}
+#card3{
+    rotate: 30deg;
+    z-index: 2;
+}
+#card4{
+    rotate: 45deg;
+    z-index: 1;
+}
+/*
+#card5{
+    rotate: 60deg;
+    z-index: 5;
+}
+#card6{
+    rotate: 75deg;
+    z-index: 6;
+}
+card8{
+    rotate: 90deg;
+    z-index: 7;
+}
+#card7{
+    rotate: 105deg;
+    z-index: 8;}
+#card6{
+    rotate: 120deg;
+    z-index: 9;}
+#card6{
+    rotate: 135deg;
+    z-index: 10;}
+#card5{
+    rotate: 150deg;
+    z-index: 11;}*/
+#card1{
+    z-index: 4;}            
+
+
+    
+img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#card2:hover{
+    z-index: 20;
+}
+#card3:hover{
+    z-index: 20;
+}
+#card4:hover{
+    z-index: 20;
+}
+
+h1{
+    position: absolute;
+   
+    top: 0%;
+    left: 0%;
+}
+h1{
+ margin-left: 35%;
+
+}
+
+H1:hover{
+    color: rgb(11, 215, 246);
+}
+#P{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    margin-right: 80%;
+    margin-bottom: 35%;
+    color: rgb(3, 3, 3);
+}
+    H3:hover{color:rgb(250, 250, 250)}
